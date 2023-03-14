@@ -1,0 +1,33 @@
+.not-found{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(21, 19, 19);
+    color: #fff;
+}
+.not_container{
+    padding: 40px;
+    position: relative;
+}
+.not-found h1{
+    font-size: 120px;
+    margin-bottom: 30px;
+}
+.not-found p {
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    bottom: 100px;
+}
+.not-found a{
+    background-color: gold;
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 20px;
+
+}

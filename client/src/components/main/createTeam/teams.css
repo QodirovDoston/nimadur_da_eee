@@ -1,0 +1,251 @@
+.create_team{
+    width: 100%;
+    padding: 50px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.upload_img{
+    max-width: 400px;
+    width: 100%;
+    height: 450px;
+    border: 1px solid #DBDEE7;
+    padding: 15px;
+    margin: 20px;
+    position: relative;
+}
+#files_ups{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+#files_ups::before{
+    content: "+";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    color: rgb(150, 200, 107);
+    font-size: 15rem;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+}
+#file_img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+}
+#file_img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+#file_img span{
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    background: white;
+    border: 1px solid #DBDEE7;
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 900;
+    color: crimson;
+}
+.upload_imgs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.upload_cart{
+    max-width: 180px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #DBDEE7;
+    padding: 15px;
+    margin: 20px;
+    position: relative;
+}
+.upload_imgs .upload_cart input{
+    width: 150px;
+}
+#files_up{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+#files_up::before{
+    content: "+";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    color: rgb(150, 200, 107);
+    font-size: 10rem;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+}
+.team_container{
+    position: relative;
+}
+.team_container button{
+    position: absolute;
+    width: 350px;
+    height: 45px;
+    background: #1ABC9C;
+    bottom: -70px;
+    color: white;
+    right: 145px;
+}
+.team_container .row input,
+.team_container .row textarea{
+    width: 450px;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    border: solid solid #DBDEE7;
+}
+.team_container .row input{
+    height: 45px;
+}
+.team_container .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.teams_contaner {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #F3F3F3;
+}
+
+.teams_boxs{
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.team_cart{
+    width: 450px;
+    overflow: hidden;
+    margin: 20px 5px;
+    border-radius: 5px;
+}
+.team_cart img{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+.team_cart h2{
+    text-align: center;
+    font-weight: 400;
+}
+.img_teams {
+    width: 72px;
+    height: 60px;
+    background: #8BDCCC;
+    margin: auto;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.img_teams img{
+    width: 72px;
+    height: 60px;
+    object-fit: cover;
+}
+.border_box{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner_team_container{
+    display: flex;
+    width: 100%;
+    height: 540px;
+    padding: 90px 50px;
+    padding-top: 120px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    background: #FCFCFC;
+}
+.banner_team_info h2{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.banner_team_info p{
+    font-size: 20px;
+}
+
+.banner_img_team .teamBanner{
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+.teamBanner1{
+    position: absolute;
+    right: 550px;
+    bottom: 18px;
+}
+.positions_box{
+    width: 100%;
+    padding: 20px 0;
+}
+.positions_box button{
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    transform: translate(-50%, -50%);
+}
+.banner_img_team .teamBanner{
+    width: 500px;
+}
+.upload_imgs{
+    position: relative;
+    margin-bottom: 20px;
+}
+.posabs{
+    position: absolute;
+    top: 235px;
+    left: 20px;
+}
+.posabs1{
+    left: 235px;
+}
+.posabs2{
+    left: 455px;
+}
+.services_creates{
+    padding: 80px;
+}
+.abs_box{
+    position: absolute;
+    right: 15px;
+    width: 95%;
+    bottom: -15px;
+}

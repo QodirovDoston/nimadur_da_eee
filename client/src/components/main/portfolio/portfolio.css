@@ -1,0 +1,120 @@
+.portfolio_blogs{
+    width: 100%;
+    padding: 30px 0;
+}
+.portfolio_cart{
+    width: 100%;
+    background: rgba(26, 188, 156, 0.05);
+}
+.portfolio_img{
+    width: 800px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.carousel_cart{
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+}
+.carousel_cart img{
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+}
+.category_portfolio{
+    overflow: hidden;
+}
+.portfolio_infos{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+.portfolio_infos h2{
+    font-size: 32px;
+    font-weight: 800;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.portfolio_infos p{
+    font-size: 18px;
+    padding: 10px 60px;
+}
+.portfoilio_heading {
+    padding: 100px 50px 50px 75px;
+    margin: 0;
+}
+.portfoilio_heading p{
+    margin: 0;
+    padding-bottom: 20px;
+}
+.portfolio_cart a{
+    width: 100%;
+    padding: 20px 50px;
+    background: crimson;
+    display: inline-block;
+    text-align: center;
+}
+.blog_img{
+    width: 450px;
+    height: 360px;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.rigth_img_box{
+    width: 450px;
+    padding: 0;
+    position: relative;
+}
+.rigth_box{
+    margin-top: 0;
+}
+.blog_img img{
+    width: 100%;
+    object-fit: cover;
+}
+.blog_cart{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+.blog_info{
+    width: 570px;
+    padding: 20px;
+}
+.blog_info h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.blog_info p{
+    font-size: 18px;
+
+}
+.shadow_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1.8rem 4.5rem;
+    box-shadow: 0px 1px 8px 0px black;
+    padding: 20px 50px;
+}
+.blogs_box{
+    padding: 30px 15px !important;
+}
+.blog_data_info{
+    padding: 20px 0 !important;
+}
+@media(max-width: 1300px){
+    .shadow_box{
+        margin: 0;
+    }
+}

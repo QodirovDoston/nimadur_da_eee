@@ -1,0 +1,115 @@
+header{
+    min-height: 72px;
+    position: fixed;
+    max-width: 1600px;
+    margin: auto;
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0px 8px 22px -6px rgba(24, 39, 75, 0.12), 0px 14px 64px 0px rgba(24, 39, 75, 0.12);
+}
+header ul {
+    display: flex;
+    align-items: center;
+}
+.logo_name{
+    display: block;
+    position: absolute;
+    left: 160px;
+    top: 20px;
+}
+.header_link{
+    margin-right: 100px;
+}
+header ul li a{
+    padding: 3px 15px;
+    transition: 0.3s;
+}
+.log a{
+    background: #3F3F3F;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-left: 10px;
+}
+ul li img{
+    width: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.phone a{
+    
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.header_link li:hover a{
+    border-bottom: 2px solid #1ABC9C;
+}
+.menu{
+    width: 25px;
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+.logo a img{
+    width: 100%;
+    object-fit: cover;
+}
+.languages{
+    display: block;
+    margin-right: 20px;
+    position: absolute;
+    right: 290px;
+}
+@media (max-width: 570px){   
+.logo_name{
+        display: block;
+        width: 78%;
+        position: relative;
+        left: 0 !important;
+        top: 0;
+    }
+    .mons_days{
+        display: block;
+        width: 40px;
+        position: absolute;
+        top: 20px;
+        left: 0px;
+    }
+}
+.mons_days{
+    width: 30px;
+}
+.drops li{
+    cursor: pointer;
+}
+.languages img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.drop{
+    display: none;
+}
+.drops{
+    display: grid;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -110px;
+    z-index: 99;
+}

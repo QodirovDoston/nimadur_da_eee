@@ -1,0 +1,78 @@
+{
+    "header": {
+        "1": "Home",
+        "2": "About",
+        "3": "Services",
+        "4": "Team",
+        "5": "Portfolio",
+        "6": "Blog"
+    },
+    "banner": {
+        "title": "Turnkey website development.",
+        "content": "Become a successful businessman.",
+        "link": "Order"
+    },
+    "services": {
+        "title": "services",
+        "content": "We provide IT services for your business",
+        "content1": "Latest news about us"
+    },
+    "client": {
+        "title": "OUR CLIENTS"
+    },
+    "portfolio": {
+        "name": "Our portfolio",
+        "title": "PORTFOLIO",
+        "content": "In the portfolio you will find developed websites, telegram bots, mobile applications and smm promotion. Better to see once than to speak 100 times. ",
+        "link": "More details"
+    },
+    "team": {
+        "title": "OUR TEAM",
+        "content": "Our super team consists of  ",
+        "content1": "programmers, developers, ceo specialists, designers, motion designers, smm specialists, project managers and an accountant.",
+        "link": "Familiarize"
+    },
+    "message": {
+        "title": "REVIEWS"
+    },
+    "footer": {
+        "link1": "To contact us",
+        "heade1": "Company",
+        "heade2": "For partners",
+        "h41": "Mon-Sun seven days a week from 08:00 to 18:00",
+        "h42": "Sat-Sun: day off",
+        "phone": "Telephone",
+        "link2": "Go to channel",
+        "1": "News",
+        "2": "Questions and answers",
+        "3": "Add"
+    },
+    "about": {
+        "title": "ABOUT US",
+        "quasition":"Hello dear guest on our page and want to know? ",
+        "content": "Dear guest, our company was founded on May 24, 2018 - ",
+        "Link": "Sarvinoz Vakhabova",
+        "content1": "The company started with 2 people, that is, the founder and the programmer. We rented a room, renovated it and worked. Over time, things went uphill, because people are offered by people. With each completed project and a satisfied client, our team expanded and more projects were taken. Better is the development of sites, telegram bots, online stores, mobile applications and SMM promotion. People are turning to create an Internet foundation for a business that will generate further income. Check out the works in the portfolio section.",
+        "content2": "Our team consists of programmers, developers, web designers, managers and already 15 people. In the command section, you will see the command. Since we are interested in building our personal brand and this is our face, we deliver projects on time and with high quality. Works are concluded under a contract.",
+        "content3": "05/24/2021 celebrated our 3rd anniversary in the new office of our company. Progress is also seen in the increase in our team and the achievement of heights in this niche and the transition to a new office with the investment of a piece of our soul.",
+        "title2": "LOCATION",
+        "title3": "We work all over the world."
+    },
+    "teamSpuer": {
+        "title": "OUR SUPER TEAM",
+        "content": "In the portfolio you will find developed websites, telegram bots, mobile applications and smm promotion. Better to see once than to speak 100 times. Proceed further in more detail"
+    },
+    "connect": {
+        "title": "Leave a request",
+        "1": "Name",
+        "2": "Phone Number"
+    },
+    "location": {
+        "title1": "Tashkent",
+        "title2": "Yunusabad, Amir Temur Street",
+        "title3": "Stroycenter, 2nd floor",
+        "title4": "Saint Petersburg",
+        "title5": "Academician Pavlova 5A",
+        "title6": "River House 2nd floor"
+    }
+}

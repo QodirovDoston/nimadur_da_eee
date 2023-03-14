@@ -1,0 +1,58 @@
+.admin_panel{
+    display: flex;
+    width: 100%;
+    padding: 100px 70px 50px 70px;
+    background: rgb(229, 231, 235);
+    justify-content: center;
+    align-items: center;
+}
+.admin_panel ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.admin_panel ul li{
+    margin: 20px 10px;
+    width: 250px;
+}
+.admin_panel ul li a{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    border: 1px solid rgb(111, 167, 226);
+}
+.blog_update{
+    display: flex;
+    padding: 50px;    
+}
+.category{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    background: #EEF0F1;
+}
+.update_img_category img{
+    height: 250px;
+}
+.update_category{
+    width: 300px;
+    text-align: center;
+    background-color: rgba(233, 230, 230, 0.755);
+}
+.category_update{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.update_post{
+    width: 350px;
+}
+.update_post img{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}

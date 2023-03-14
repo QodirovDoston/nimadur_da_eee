@@ -1,0 +1,500 @@
+.main_page {
+    z-index: 0;
+}
+
+.header_baner {
+    padding-left: 80px;
+    padding-top: 80px;
+    position: relative;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.banner_img {
+    display: block;
+}
+
+.banner_img .banner1 {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    z-index: 0;
+    width: 600px;
+}
+
+.banner_img .banner2 {
+    position: absolute;
+    bottom: 40px;
+    right: 620px;
+    width: 230px;
+}
+
+.banner_img .glass {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 100px;
+    opacity: 0.8;
+}
+
+.banner_info {
+    width: 550px;
+    padding-right: 40px;
+}
+
+.banner_info h2 {
+    margin: 120px 0 30px 0;
+    font-size: 50px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.banner_info p {
+    font-size: 20px;
+    padding-right: 85px;
+    margin-bottom: 20px;
+}
+
+.banner_info a {
+    background: #1ABC9C;
+    padding: 15px 40px;
+    text-align: center;
+    width: 300px;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.services {
+    padding: 50px 50px 50px 0;
+}
+
+.heading {
+    width: 100%;
+    padding-left: 80px;
+    margin-bottom: 30px;
+}
+
+.heading h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.heading p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.clients_post {
+    height: 350px;
+    overflow-y: auto;
+}
+
+.services_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.category_cart {
+    width: 386px;
+    height: 197px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 25px 15px;
+    margin: 20px 5px;
+    border: 2px solid #1ABC9C;
+}
+
+.category_cart h2 {
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.category_cart p {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.category_cart a {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    text-align: center;
+    background-color: #1ABC9C;
+}
+
+.abs_link {
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.info_blog {
+    padding: 40px 40px 40px 0;
+}
+
+.services_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.srvs {
+    padding: 20px 40px;
+}
+
+.category_boxs {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.services_container .services_cart {
+    display: flex;
+    justify-content: center;
+}
+
+.services_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services_box {
+    display: block;
+}
+
+.company_logo,
+.mini_logo {
+    width: 250px;
+    margin: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #1ABC9C;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.mini_logo img,
+.company_logo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.info_box {
+    padding-left: 80px;
+}
+
+.clients_post {
+    height: 530px;
+}
+
+.company_logo {
+    padding: 15px 20px;
+}
+
+.info_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.w_50 {
+    max-width: 520px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin: 15px 0;
+    border-radius: 8px;
+    background: #1ABC9C;
+}
+
+.sovmes_img {
+    max-width: 520px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sovmes_img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.config {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio_info {
+    max-width: 590px;
+    width: 100%;
+}
+
+.w-50,
+.contacts_images {
+    max-width: 490px;
+    width: 100%;
+}
+
+.portfolio_info h2 {
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+.portfolio_info p {
+    padding-right: 60px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.portfolio_info a {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    background: #1ABC9C;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px
+}
+
+.team_infs {
+    display: flex;
+    padding: 80px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.animation {
+    width: 90px;
+    height: 90px;
+    background: #1ABC9C;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    bottom: -20px;
+    left: 370px;
+    opacity: 0.7;
+}
+
+.category_portfolio {
+    width: 100%;
+    position: relative;
+}
+
+.category_portfolio .post_card {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.teamglass {
+    position: absolute;
+    bottom: -9px;
+    left: 522px;
+    width: 100px;
+}
+
+.glassblog {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    width: 300px;
+}
+
+.contacts_cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.imports_images {
+    width: 450px;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.images_style_contact {
+    width: 285px;
+    position: relative;
+    overflow: hidden;
+    margin: 15px 0;
+    border-radius: 10px 10px 15px 0px;
+}
+
+.images_style_contact img {
+    width: 285px;
+    object-fit: cover;
+}
+
+.images_style_contact #deleted_btn {
+    position: absolute;
+    width: 48%;
+    display: inline-block;
+    padding: 5px 38px;
+    color: white;
+    z-index: 95;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    background: crimson;
+}
+
+.images_style_contact #edit_btn {
+    position: absolute;
+    width: 48%;
+    display: inline-block;
+    padding: 5px 38px;
+    color: white;
+    z-index: 95;
+    text-align: center;
+    background-color: #1ABC9C;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.main_area {
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.glavni_links {
+    position: absolute;
+    right: 35px;
+    bottom: 50px;
+}
+
+.glavni_icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    border-radius: 50%;
+}
+
+.config_icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    border-radius: 50%;
+}
+
+.glavni_links img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.configs {
+    transition: 0.3s;
+    position: absolute;
+}
+
+.config_icon:nth-child(1) {
+    bottom: 156px;
+    right: -30px;
+}
+
+.config_icon:nth-child(2) {
+    bottom: 133px;
+    right: 33px;
+}
+
+.config_icon:nth-child(3) {
+    bottom: 95px;
+    right: 85px;
+}
+
+.config_icon:nth-child(4) {
+    bottom: 30px;
+    right: 115px;
+}
+
+.config_icon:nth-child(5) {
+    bottom: -39px;
+    right: 110px;
+}
+
+.config_icon:nth-child(7) {
+    bottom: 10px;
+    right: 90px;
+}
+
+.banner_team_info {
+    max-width: 600px;
+    padding-left: 30px;
+}
+
+.link_styles #deleted_btn {
+    width: 48%;
+    display: inline-block;
+    padding: 5px 38px;
+    color: white;
+    z-index: 95;
+    text-align: center;
+    background: crimson;
+    border-radius: 5px;
+}
+
+.link_styles #edit_btn {
+    width: 48%;
+    display: inline-block;
+    padding: 5px 38px;
+    color: white;
+    z-index: 95;
+    text-align: center;
+    background-color: #1ABC9C;
+    border-radius: 5px;
+}
+.message_number{
+    background-color: red;
+    padding: 0px 6px;
+    position: fixed;
+    right: 15px;
+    bottom: 75px;    
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    font-size: 14px;
+    z-index: 98;
+}

@@ -1,0 +1,94 @@
+.user_blok{
+    width: 100%;
+    padding: 50px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.user_blok .upload{
+    width: 263px;
+    height: 263px;
+    display: flex;
+    overflow: hidden;
+}
+
+.user_blok #file_up::before{
+    content: "+";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    color: rgb(150, 200, 107);
+    font-size: 10rem;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+}
+#file_img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+}
+#file_img img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+}
+#file_img span{
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    background: white;
+    border: 1px solid #DBDEE7;
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 900;
+    color: crimson;
+}
+.user_blok button {
+    position: absolute;
+    bottom: 45px;
+    left: 89px;
+    background: gold;
+    width: 263px;
+    border-radius: 6px;
+    height: 40px;
+}
+.user_blok form{
+    display: flex;
+    max-width: 650px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.user_blok .login_params{
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+}
+.user_blok .login_params .row{
+    display: block;
+    margin: 0;
+    width: auto;
+    padding: 10px;
+    background: transparent;
+}
+.user_blok .login_params .row input{
+    width: 100%;
+    height: 40px;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #DBDEE7;
+    font-weight: 600;
+}
+.user_blok .login_params .row label{
+    font-weight: bold;
+}

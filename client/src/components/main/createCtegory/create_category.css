@@ -1,0 +1,26 @@
+.create_categor{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+.form_input{
+    width: 500px;
+}
+.form_input form input,
+.form_input form textarea{
+    width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    outline: none;
+}
+.form_input form button{
+    background: rgb(75, 135, 245);
+    color: white;
+    width: 400px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+}

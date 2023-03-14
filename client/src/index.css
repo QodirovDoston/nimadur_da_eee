@@ -1,0 +1,589 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Heade{
+  width: 100%;
+}
+.App{
+  max-width: 1600px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+p{
+  line-height: 22px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  line-height: 23px;
+}
+li{
+  list-style: none;
+}
+.box-details {
+  padding: 0 30px;
+  width: 600px;
+}
+button{
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* ---------------- Header ----------- */
+@import url("./components/header/header.css");
+
+/* ----------------- Banner ---------------- */
+@import url("./components/main/mainPage/banner.css");
+/* --------------- Login -------------- */
+@import url("./components/main/auth/login.css");
+
+/* -------------- Footer ------------ */
+@import url("./components/footer/footer.css");
+
+/* ------------- Admin ------------- */
+@import url("./components/main/AdminRouter/admin.css");
+
+/* ------------- Create Category -------------- */
+@import url("./components/main/createCtegory/create_category.css");
+
+/* -------------- Create Product ------------ */
+@import url("./components/main/createPost/createPost.css");
+
+/* ---------------- Loading ----------- */
+@import url("./components/main/utils/loading/loading.css");
+
+/* --------------- Details --------------- */
+@import url("./components/main/detailsPost/details.css");
+
+/* ---------------- Panel Admin ---------------- */
+@import url("./components/main/userPanel/userPanel.css");
+
+/* ---------------- Admin Edit ---------------------- */
+@import url("./components/main/HeaderAdmin/userEdit.css");
+
+/* ------------------- Order Pro ------------------- */
+@import url("./components/main/order/order.css");
+
+/* -------------------- Services ----------------------- */
+@import url("./components/main/services/services.css");
+
+/* --------------------- Teams --------------------- */
+@import url("./components/main/createTeam/teams.css");
+
+/* ---------------------- Portfolio --------------- */
+@import url("./components/main/portfolio/portfolio.css");
+
+/* ---------------------- About ---------------------  */
+@import url("./components/main/about/about.css");
+/* ------------------ Note Found ----------------- */
+@import url("./components/main/utils/notFound/noteFound.css");
+/* -------------------- Responsive ------------------- */
+@media (max-width: 522px){
+  .blog:nth-child(1){
+    width: 100%;
+  }
+  .blog_cart{
+    padding: 15px !important;
+  }
+  .right-location{
+    padding: 10px;
+  }
+  .right-location .row h2{
+    font-size: 24px;
+  }
+  .location_info h2{
+    font-size: 20px;
+  }
+  .blog h2{
+    font-size: 28px;
+  }
+  .blog:nth-child(2),
+  .blog:nth-child(3){
+    font-size: 14px;
+    margin: 30px 0;
+    width: 50%;
+  }
+  .blog:nth-child(4){
+    display: block;
+    width: 100%;
+  }
+  .box{
+    display: block;
+    margin: 20px 0;
+  }
+
+  .profile {
+    width: 100%;
+  }
+  .footer_info a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .portfolio_infos h2{
+    font-size: 18px;
+  }
+  .portfolio_infos p {
+    font-size: 16px;
+  }
+  .portfolio_img{
+      height: 200px !important;
+      padding: 10px;
+  }
+  .carousel_cart{
+      width: 100%;
+      height: 180px;
+      padding: 0;
+      margin: 0;
+  }
+  .carousel_cart img{
+      width: 100%;
+      height: 180px;
+  }
+  .rigth_box{
+      margin-top: 350px !important;
+  }
+  .rigth_img_box{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      overflow: hidden;
+      padding: 15px;
+  }
+  .blog_cart{
+      position: relative;
+  }
+}
+@media (max-width: 940px){
+  header {
+    padding: 0 20px;
+  }
+  .header_link {
+    width: 100%;
+    display: block !important;
+    margin: 80px 0;
+  }
+}
+@media (max-width: 1075px){
+  header{
+    padding: 0 20px;
+  }
+  .services_container {
+    justify-content: center;
+  }
+  header .menu-link{
+    width: 100%;
+    height: 100vh;
+    background-color: #2B2B2B;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 100%;
+    display: block;
+    text-align: center;
+    z-index: 99;
+  }
+  .header_link{
+    width: 100%;
+    display: block;
+    margin: 80px 0;
+  }
+  .log_login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .menu-link ul li{
+    margin: 20px 0;
+  }
+  .menu-link ul li a{
+    color: white;
+  }
+  .menu{
+    display: block;
+  }
+  .languages {
+    display: block;
+    margin-right: 20px;
+    position: absolute;
+    right: 56px;
+  } 
+  .info_box {
+    justify-content: center;
+  }
+}
+@media (max-width: 1200px){
+  .banner_img .banner2 {
+    width: 220px;
+    bottom: 90px;
+    right: 470px;
+  }
+  header {
+    padding: 0 20px;
+  }
+  .logo_name {
+    left: 100px;
+  }
+  .header_baner {
+    padding-left: 40px;
+  }
+  .banner_img .banner1 {
+    width: 440px;
+  }
+  .banner_info h2 {
+    font-size: 40px;
+  }
+  .banner_info p {
+    font-size: 18px;
+  }
+  .heading h2 {
+    font-size: 35px;
+  }
+  .heading p {
+    font-size: 16px;
+  }
+  .services {
+    padding: 35px 35px 35px 0;
+  }
+  .config {
+    padding: 10px;
+  }.services_box p {
+    font-size: 15px;
+  }
+  .heading {
+    padding-left: 30px;
+  }
+  .sovmes_img{
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .services_container .services_cart {
+    flex-wrap: wrap;
+  }
+  .services_box {
+    width: 100%;
+  }
+  .banner_info {
+    width: 100%;
+    padding-right: 40px;
+    padding-top: 80px;
+  }
+  .animation{
+    display: none;
+  }
+  .info_blog {
+    padding: 10px;
+  }
+  .icon_cart {
+    margin: 20px auto;
+    display: flex;
+    padding: 5px;
+  }
+  .banner_team_info p {
+    padding: 0;
+  }
+  .portfolio_infos {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .portfolio_infos p {
+    font-size: 18px;
+    padding: 10px 27px;
+  }
+  .btn {
+    padding: 10px 10px;
+    width: 170px;
+  }
+  .order_form_input {
+    min-width: 350px;
+    padding: 10px;
+  }
+  .ordered_req .row {
+    flex-wrap: wrap;
+  }
+} 
+
+@media (max-width: 750px){
+  .banner_img .banner2{
+    display: none;
+  }
+  .contacts_cart{
+    padding: 15px;
+  }
+  .teamBanner1{
+    display: none;
+  }
+  .portfolio_info {
+    width: 100%;
+    margin-top: 1px !important ;
+  }
+  .w-50{
+    width: 100%;
+    overflow: hidden;
+  }
+  .contacts_images img{
+    width: 100%;
+  }
+  .w-50 img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .sovmes_img img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .banner_img .glass {
+    width: 75px;
+  }
+  .banner_img .banner1 {
+    width: 100%;
+    top: 200px;
+  }
+  .header_baner{
+    padding: 0 15px;
+  }
+  .banner_info h2 {
+    font-size: 35px;
+    margin: 0;
+    margin-top: 24px;
+  }
+  .banner_info p{
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    position: absolute;
+    bottom: 95px;
+  }
+  .banner_info a{
+    background: gold;
+    color: black;
+    position: absolute;
+    bottom: 27px;
+    width: 93%;
+  }
+  .info_box{
+    padding: 15px;
+    padding-left: 15px !important;
+  }
+  .services{
+    padding: 15px;
+  }
+  .team_infs {
+    padding: 15px !important;
+    padding-bottom: 40px !important;
+  }
+  .portfolio_info h2 {
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-bottom: 40px;
+    margin-top: 370px;
+  }
+  .w-50 img{
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+  .w-50 .teamglass{
+    display: none;
+  }
+  .w-50 .glassblog{
+    width: 160px;
+  }
+  .portfolio_info a{
+    width: 100%;
+  }
+  .about_blogs {
+    padding: 15px;
+    padding-top: 100px;
+  }
+  .content_about{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .locationMap{
+    margin-left: 0;
+  }
+  .icon_cart{
+    display: block;
+    width: 100px;
+  }
+  .icon_cart h2{
+    font-size: 12px;
+  }
+  .banner_img_team .teamBanner {
+    width: 100%;
+  }
+  .create_categor {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .form_input form input, .form_input form textarea {
+    width: 100%;
+  }
+  .form_input form button {
+    width: 100%;
+  }
+  .create_product {
+    padding: 20px;
+  }
+  .create_product form {
+    margin: 15px 15px;
+  }
+  .create_product form button {
+    width: 100%;
+  }
+  .create_team{
+    padding: 70px 0;
+  }
+  .team_container {
+    padding: 20px;
+  }
+  .upload_imgs {
+    position: relative;
+  }
+  .upload_cart {
+    max-width: 110px;
+    width: 100%;
+    height: 140px;
+    border: 1px solid #DBDEE7;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+  }
+  .posabs {
+    position: absolute;
+    top: 175px;
+  }
+  .posabs input{
+      width: 100px;
+  }
+  .posabs2 {
+    left: 253px;
+  }
+  .posabs1 {
+    left: 138px;
+  }
+  .team_container .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    text-align: left;
+  }
+  .team_container .row input, .team_container .row textarea {
+    padding: 10px;
+    width: 100%;
+  }
+  .team_container button {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    background: #1ABC9C;
+    bottom: -70px;
+    color: white;
+    right: 0px;
+  }
+  .banner_team_info h2 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 290px;
+    margin-bottom: 10px;
+  }
+  .banner_team_container {
+    padding: 90px 15px;
+  }
+  .banner_team_info p {
+    font-size: 18px;
+  }
+  .portfolio_img {
+    width: 100%;
+    height: auto;
+  }
+}
+.row_btn a{
+  margin: 0 10px;
+}
+
+@media (max-width: 1340px){
+  .team_infs{
+    padding: 40px;
+  }
+  .info_box {
+    padding-left: 40px;
+}
+}
+
+
+@media (max-width: 760px){
+  .portfolio_info {
+    margin-top: 120px;
+  }
+  .cart_services{
+    padding: 30px;
+  }
+}
+
+@media (max-width: 390px){
+  .portfolio_info h2 {
+    margin-top: 320px;
+  }
+  .icon_cart {
+    width: 90px;
+  }
+  .portfolio_infos h2{
+    font-size: 18px;
+  }
+  .portfolio_infos p {
+    font-size: 16px;
+  }
+  .category_cart {
+    height: 225px;
+  }
+  .w-50 .glassblog {
+    width: 150px;
+  }
+  .w-50 img {
+    left: 10px;
+  }
+  .category_boxs h2{
+    font-size: 25px;
+  }
+  .heading h2 {
+    font-size: 28px;
+}
+}
+@media (max-width: 320px){
+  .category_boxs h2{
+    font-size: 18px;
+  }
+  .category_boxs p{
+    font-size: 14px;
+  }
+  .banner_info h2 {
+    font-size: 25px;
+  }
+  .images_style_contact {
+    width: 253px;
+  }
+  .images_style_contact img {
+    width: 250px;
+  }
+}

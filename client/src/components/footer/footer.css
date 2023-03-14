@@ -1,0 +1,110 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 30px;
+    background: #2B2B2B;
+    color: white;
+}
+.blog{
+    margin-bottom: 20px;
+}
+.blog h2,
+.blog h3 {
+    padding-bottom: 10px;
+}
+.blogs{
+    display: flex;
+}
+.blog{
+    display: inline-block;
+}
+.footer a{
+    display: block;
+    color: white;
+}
+.footer_info{
+    display: flex;
+    margin-bottom: 10px;
+}
+.footer_info h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+.profile{
+    display: flex;
+}
+.footer_img {
+    padding-right: 10px;
+}
+.footer_img img{
+    width: 24px;
+}
+.box{
+    margin: 0 15px;
+}
+.btn{
+    padding: 8px 10px;
+    border-radius: 7px;
+    text-align: center;
+    background: #1ABC9C;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    background: #3F3F3F;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.profile_img{
+    margin-right: 10px;
+    width: 32px;
+    overflow: hidden;
+}
+.profile_img img{
+    width: 100%;
+    object-fit: cover;
+}
+.profile p{
+    font-size: 12px;
+}
+.footer_info a{
+    padding: 10px 42px;
+    border-radius: 7px;
+    background: #1ABC9C;
+}
+.logs_link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.blog_new_item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title_card {
+    padding: 0 20px 25px 20px;
+}
+.header_city{
+    margin-bottom: 15px;
+}
+.margin_date{
+    margin: 15px 0;
+}
+.card_info{
+    display: flex;
+}
+card_info h5{
+    margin-left: 10px;
+}
+.icon_left{
+    margin-right: 10px;
+}
+.text_style {
+    width: 250px;
+}
